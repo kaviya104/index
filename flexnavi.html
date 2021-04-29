@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title>Navigation bar</title>
+        <style type="text/css">
+        ul{
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            overflow:hidden;
+
+        }
+        a:link,a:visited{
+            display:block;
+            font-weight:bold;
+            color:#ffffff;
+            background-color:#95bf21;
+            width:120px;
+            text-align:center;
+            padding:4px;
+            text-transform:uppercase;
+            text-decoration:none;
+        }
+        a:hover,a:active{
+            background-color:#7a991a;
+        }
+        li{
+            float:left;
+        }
+        span{
+            color:purple;
+        }
+        .navlist{
+            display:flex;
+        }
+        .navlist li{
+            margin:1rem;
+            list-style:none;
+        }
+        #home{
+            background-color:skyblue;
+            height:50vh;
+            text-align:center;
+            display:grid;
+            place-items:center;
+        }
+        
+        img.center{
+            display:block;
+            margin:auto;
+            background-color:skyblue;
+        }
+        #second{
+            background: #414141;
+        }
+        .container{
+            height:100vh;
+            background-color:royalblue;
+            max-width:600px;
+            min-width:92%;
+            margin:auto;
+            padding:3rem;
+            display:flex;
+        }
+        .col1,.col2,.col3{
+            margin:1rem;
+
+        }
+        .col1,.col2,.col3{
+            background-color:#fff;
+            padding:1rem;
+        }
+        
+            </style>
+    
+    </head>
+    <body>
+        
+    <header>
+        <h1>
+            
+                <img class="logo" src="4831932_fashion-png-creative-fashion-logo-design-transparent-png.jpg"height="100px"></a>
+            
+        </h1>
+        <nav>
+            <ul class="navlist">
+            <li><a href="#home">home</a></li>
+            <li><a href="#home">product</a></li>
+            <li><a href="#home">new arrival</a></li>
+            <li><a href="#IMAGE">image</a></li>
+            <li><a href="#home">help</a></li>
+            <li><a href="#ABOUT US">about us</a></li>
+        
+        </nav>
+        </header>
+        
+        <section id="IMAGE">
+            <img class="center" src="b5f83f37188531.582e511370dd6.jpg" width="50%" height="500">
+        </section>
+
+        <section id="ABOUT US">
+            <!-- parent is the container -flexbox-->
+              <div class="container">
+            <!-- col1 ,col2 and col3 are children-->
+              <div class="col1">
+                Fashion is a form of self-expression, at a particular period and place and in a specific context, of clothing, footwear, lifestyle, accessories, makeup, hairstyle, and body posture
+                  </div>
+                <div class="col2">
+                    In reaction to the increased mass-production of commodities clothing at lower prices and global reach,
+                </div>
+                <div class="col3">
+                    The functions of fashion include the ability to construct, predict, distribute and implement certain values
+                </div>
+              </div>
+            </section>
+        
+   
+</body>
+</html>
